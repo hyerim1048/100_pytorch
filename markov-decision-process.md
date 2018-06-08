@@ -29,4 +29,26 @@ reward 의  discount factor.  시간이 지날수록  R 의 가치를 떨어뜨�
 ## http://sanghyukchun.github.io/76/
    
    
+ ##  Markov Property
+ 
+ 미래는모든 과거가 아니라 현재에만 의존한다. 현재의 상태는 이미 과거에 대한 충분한 통계량을 제공한다.
+ 이를  memoryless 하다고 표현.
 
+##  Policy and Return
+
+ policy : mapping State to Action.어떤 행동이 제일 좋다. action 을 결정.
+return :  discounted sum of rewards. policy 의 가치
+ * 강화학습의 목적은  return 값을 최대화하는  policy 를 찾는 것!
+ 
+ ##  Value Function (V,Q)
+ 
+각  state 의  value 를 평가함. 
+* state value function(V) : state 의 가치.  주어진  policy 를 따라
+행동했을 때 얻어지는  return  의 기대값
+*  action value function (Q) :  어떤 상태에서  선택한  action 의 가치.  
+action 을 취한뒤에 주어진  policy 를 따라 행동한 결과의 기대값
+
+ 
+ 
+ 
+ 
